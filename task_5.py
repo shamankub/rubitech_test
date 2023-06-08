@@ -54,9 +54,8 @@ class TextMethods:
     def count_special_characters(self) -> str:
         # Дефисы считал, как часть слова. Тире - как спецсимвол.
         special_chars = {".", ",", "!", "?", ";", ":", "—", "'", '"'}
-        text = self.text.lower()
         count = 0
-        for char in text:
+        for char in self.text:
             if char in special_chars:
                 count += 1
         return f"Количество спецсимволов в тексте: {count}"
