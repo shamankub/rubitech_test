@@ -1,0 +1,39 @@
+Задание A:
+ miguelgrinberg/Flask-SocketIO
+miguelgrinberg/Flask-SocketIO
+someuser/someproject
+someuser/repository.name.gi
+Некорректное название репозитория: https://github.com/someuser/repository.name.git.git
+Некорректное название репозитория: https://github.com/someuser/repository/name.git
+Неправильный формат ссылки: http://google.com
+Неправильный формат ссылки: non-valid link
+Ссылка должна быть строкой: 12345
+
+Задание B:
+ {"('a', 'k')": 3, '15': 2, 'c': 4, 'g': 1}
+
+Задание C:
+ ['abc_1.73_cba', 64, 'abc_def_cba', 16, 'abc_ghi_cba']
+
+Задание D:
+
+Произошла ошибка Timeout при выполнении запроса.
+Произошла ошибка Timeout при выполнении запроса.
+Произошла ошибка Timeout при выполнении запроса.
+Произошла ошибка Timeout при выполнении запроса.
+Произошла ошибка Timeout при выполнении запроса.
+Время выполнения 'request_data' 9.568246 секунд
+
+Задание E, F:
+
+Время выполнения 'find_longest_word' 0.000144 секунд
+Самое длинное слово в тексте: использованием
+
+Время выполнения 'find_most_common_word' 0.000196 секунд
+Самое часто встречающееся слово: в
+
+Время выполнения 'count_special_characters' 0.000134 секунд
+Количество спецсимволов в тексте: 11
+
+Время выполнения 'find_palindromes' 0.000142 секунд
+Палиндромы: и, к, с, в
