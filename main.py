@@ -44,7 +44,7 @@ def clear_console():
 
 
 if __name__ == "__main__":
-    clear_console()
+    # clear_console()
     print("\nЗадание A:\n", get_repository_names(links))
     print("\nЗадание B:\n", create_ordered_dict(keys, values))
     print("\nЗадание C:\n", mutate_list(my_list))
