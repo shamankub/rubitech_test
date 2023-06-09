@@ -8,7 +8,12 @@ import time
 
 import httpx
 
+# Если сервис httpbin работает с большими задержками, то разворачиваем его локально в
+# docker-контейнере командой `docker run -p 80:80 kennethreitz/httpbin`
+# после этого можем заменить url на "http://localhost/delay/3"
+
 url = "http://httpbin.org/delay/3"
+# url = "http://localhost/delay/3"
 
 
 async def make_request(url: str) -> httpx.Response:
