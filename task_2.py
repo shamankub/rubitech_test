@@ -4,8 +4,7 @@
 
 from typing import Union
 
-keys = ["g", 15, ("a", "k"), "c", ["b", "c"], "n"]
-values = [1, 2, 3, 4]
+from settings import KEYS, VALUES
 
 
 def create_ordered_dict(keys: list, values: list) -> Union[str, dict]:
@@ -25,4 +24,4 @@ def create_ordered_dict(keys: list, values: list) -> Union[str, dict]:
 
 
 if __name__ == "__main__":
-    print(create_ordered_dict(keys, values))
+    print(create_ordered_dict(KEYS, VALUES))
