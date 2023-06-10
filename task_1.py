@@ -6,17 +6,7 @@
 import re
 from urllib.parse import urlparse
 
-links = [
-    "https://github.com/miguelgrinberg/Flask-SocketIO.git",
-    "https://github.com/miguelgrinberg/Flask-SocketIO",
-    "https://github.com/someuser/someproject",
-    "https://github.com/someuser/repository.name.gi.git",
-    "https://github.com/someuser/repository.name.git.git",
-    "https://github.com/someuser/repository/name.git",
-    "http://google.com",
-    "non-valid link",
-    12345,
-]
+from settings import LINKS
 
 
 def get_repository_names(links: list) -> str:
@@ -47,4 +37,4 @@ def get_repository_names(links: list) -> str:
 
 
 if __name__ == "__main__":
-    print(get_repository_names(links))
+    print(get_repository_names(LINKS))

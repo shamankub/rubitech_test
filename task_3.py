@@ -5,7 +5,7 @@
 
 from typing import Union
 
-my_list = ["1.73", 8, "def", 4, "ghi"]
+from settings import MY_LIST
 
 
 def mutate_list(lst: list) -> Union[str, list]:
@@ -31,4 +31,4 @@ def mutate_list(lst: list) -> Union[str, list]:
 
 
 if __name__ == "__main__":
-    print(mutate_list(my_list))
+    print(mutate_list(MY_LIST))

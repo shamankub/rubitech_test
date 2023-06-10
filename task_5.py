@@ -10,10 +10,7 @@ import time
 from collections import Counter
 from dataclasses import dataclass
 
-text = "После настройки VM мы можем перейти к следующим шагам в создании кластера Kubernetes с использованием \"cri-o\" \
-    в качестве контейнерного рантайма. Во-первых, нам необходимо внести несколько необходимых изменений, чтобы пройти \
-    проверки при инициализации 'kubeadm init'. Об этих пунктах чуть ниже. В качестве первого шага мы должны следовать \
-    главной рекомендации при работе с программным обеспечением — проверка на наличие обновлений и установка последних пакетов:"
+from settings import TEXT
 
 
 def timer(func):
@@ -69,7 +66,7 @@ class TextMethods:
 
 
 if __name__ == "__main__":
-    my_text_object = TextMethods(text)
+    my_text_object = TextMethods(TEXT)
     print(my_text_object.find_longest_word())
     print(my_text_object.find_most_common_word())
     print(my_text_object.count_special_characters())
